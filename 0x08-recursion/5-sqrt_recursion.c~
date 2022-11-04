@@ -22,7 +22,6 @@ int _evaluate(int i, int n)
 	else if (i * i == n)
 		return (1);
 	return (-1);
-	return (-1);
 }
 /**
  * _sqrt_recursion - square root of a number
