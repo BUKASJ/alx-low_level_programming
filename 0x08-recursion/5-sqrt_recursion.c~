@@ -3,23 +3,23 @@
 /**
  * _evaluate - evaluates function sqrt
  * @i: integer
- * @n: integer
+ * @num: integer
  *
  * Return: evaluate sqrt
  */
 
-int _evaluate(int i, int n)
+int _evaluate(int i, int num)
 {
 	/**evaluate function*/
 	if
-		(n == 0 || n == 1)
+		(num == 0 || num == 1)
 		return (n);
 
-	else if (i * i < n)
-	return (_evaluate(i + 1, n));
+	else if (i * i < num)
+	return (_evaluate(i + 1, num));
 
 	/*condition based*/
-	else if (i * i == n)
+	else if (i * i == num)
 		return (1);
 	return (-1);
 }

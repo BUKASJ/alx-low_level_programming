@@ -13,7 +13,7 @@ int _evaluate(int i, int num)
 	/**evaluate function*/
 	if
 		(num == 0 || num == 1)
-		return (n);
+		return (num);
 
 	else if (i * i < num)
 	return (_evaluate(i + 1, num));
