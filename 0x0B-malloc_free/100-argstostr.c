@@ -45,20 +45,3 @@ char *argstostr(int ac, char **av)
 	str[b] = '\0';
 	return (str);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
