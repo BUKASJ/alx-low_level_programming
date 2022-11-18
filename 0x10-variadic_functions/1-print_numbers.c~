@@ -3,7 +3,7 @@
 /**
  * print_numbers - prints numbers, followed by a new line
  * @separator: string to be printed between two numbers
- * @a: number of parameters
+ * @n: number of parameters
  *
  * Return: Always 0
  */
