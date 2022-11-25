@@ -1,12 +1,9 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * print_list - prints all the elements of a list_t list
  * @h: name of the list
- * @str: name of string
  *
  * Return: the number of nodes
  */
