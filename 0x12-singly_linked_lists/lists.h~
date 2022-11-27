@@ -1,6 +1,29 @@
+<<<<<<< HEAD
 #ifndef MAIN_H
 #define MAIN_H
 
+=======
+#ifndef LISTS_H
+#define LISTS_H
+
+#include <stdlib.h>
+
+/**
+ * struct list_c - singly linked list
+ * @str: string
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure for project
+ */
+
+typedef struct list_s
+{
+	char *str;
+	unsigned int len;
+	struct list_s *next;
+} list_t;
+>>>>>>> d29adbd0a37a1a8a4bd5c4dd41fb6e9d3c641f08
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
