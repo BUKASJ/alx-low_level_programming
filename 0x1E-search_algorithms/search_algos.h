@@ -1,5 +1,7 @@
-#ifndef SEARCH_ALGOS-H
-#define SEARCH_ALGOS-H
+#ifndef SEARCH_ALGOS_H
+#define SEARCH_ALGOS_H
+
+#include <stdio.h>
 
 /**
  * struct listint_s - singly linked list
@@ -44,4 +46,4 @@ typedef struct skiplist_s
 } skiplist_t;
 skiplist_t *linear_skip(skiplist_t *list, int value);
 
-#endif /* SEARCH_ALGOS-H */
+#endif /* SEARCH_ALGOS_H */
